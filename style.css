@@ -1263,10 +1263,12 @@ h3 {
     gap: 0;
   }
   .review img {
-    width: auto;
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+    -webkit-transform: translateZ(0);
   }
 }
-
 @media (max-width: 465px) {
   .about-img img {
     max-height: 323px;
