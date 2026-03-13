@@ -553,14 +553,14 @@ h3 {
 /* REVIEWS */
 .reviews-track {
   display: flex;
-  gap: 24px;
+  gap: 14px;
   overflow-x: auto;
   scroll-behavior: smooth;
 }
 
 .review {
   position: relative;
-  flex: 0 0 calc((100% - 6 * 24px) / 7.4);
+  flex: 0 0 calc((100% - 6 * 14px) / 7.3);
 }
 
 .review img {
@@ -1267,6 +1267,12 @@ h3 {
     height: auto;
     image-rendering: auto;
     -webkit-transform: translateZ(0);
+  }
+  .reviews-nav {
+    margin-top: 0;
+  }
+  section.reviews {
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 465px) {
