@@ -1262,6 +1262,9 @@ h3 {
     min-width: 217px;
     gap: 0;
   }
+  .review img {
+    width: auto;
+  }
 }
 
 @media (max-width: 465px) {
