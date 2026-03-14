@@ -615,32 +615,6 @@ h3 {
   margin-bottom: 133px;
 }
 
-.qr {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.qr::before {
-  content: "";
-  position: absolute;
-  width: 149px;
-  height: 149px;
-  background-color: var(--back);
-  border-radius: 100%;
-}
-
-.qr::after {
-  content: "";
-  position: absolute;
-  background-image: url(images/qr_i.svg);
-  width: 94px;
-  height: 94px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* CONTACTS */
 .contacts {
   border-top: 1px solid var(--text);
